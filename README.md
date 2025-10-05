@@ -22,13 +22,15 @@ The repository contains both a **Jupyter Notebook** for step-by-step experimenta
 |------|--------------|
 | `Machine_Learning_for_Education_Performance_Classification_&_Enrollment_Forecasting.ipynb` | Jupyter Notebook containing full data exploration, preprocessing, feature engineering, model training, and evaluation steps. |
 | `Practiseapp.py` | Streamlit application implementing the dashboard with four tabs: Home, Dropout Prediction, Enrollment Forecasting, and Key Insights. |
+| `data/Student_Performance_Data.xlsx` | Dataset with 3 sheets containing student demographics, academic data, and socio-economic factors. |
+| `data/Enrollment_Trends_Data.xlsx` | Dataset with 2 sheets providing historical enrollment and forecast input data. |
 | `README.md` | Project documentation (this file). |
 
 ---
 
 ## 📊 Datasets
 
-Two datasets will be uploaded to the `data/` folder for public access:
+Two datasets are included in this repository under the `data/` directory:
 
 1. **Student_Performance_Data.xlsx**  
    - Contains **3 sheets**:  
@@ -41,7 +43,7 @@ Two datasets will be uploaded to the `data/` folder for public access:
      - `Historical_Enrollment` — enrollment numbers by year/semester  
      - `Forecast_Inputs` — external factors such as economic indicators or regional data  
 
-🗂️ These datasets are used in the notebook and Streamlit app to perform:
+🗂️ These datasets are used in both the notebook and Streamlit app to perform:
 - Dropout classification modeling  
 - Enrollment forecasting and trend visualization  
 - Key performance analysis and insights generation  
@@ -85,5 +87,7 @@ Two datasets will be uploaded to the `data/` folder for public access:
 ---
 
 ## 📂 Project Structure
+
+
 
 
